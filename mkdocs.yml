@@ -1,0 +1,44 @@
+site_name: My Docs
+site_url: Https://MirkoGaetanoSantonicola.com
+theme: 
+  name: material
+  palette:
+
+    - scheme: defult
+      toggle:
+        icon: material/brightness-7
+        name: Modalità Scura
+
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Modalità Chiara 
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.stichy
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+
+
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md
+
+nav:
+  - Home: index.md
+  - About: 
+    - About Me: about/about.md
+    - Mirko: about/MirkoGaetanoSantonicola.md
+  - Tags: tags.md
+
